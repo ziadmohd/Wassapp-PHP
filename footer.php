@@ -1,7 +1,7 @@
 <!-- [DOWN] Static footer content [DOWN] -->
 <footer>
   <div id="footerContent">
-    <div class="line"><div class="arrow-up"></div> Created by <span class="orange">Héctor Molinero</span> using <a href="https://github.com/venomous0x/WhatsAPI" target="_blank" rel="nofollow">WhatsAPI</a>.</div>
+    <div class="line"><div class="arrow-up"></div> Created by <span class="orange">H&#233;ctor Molinero</span> using <a href="https://github.com/venomous0x/WhatsAPI" target="_blank" rel="nofollow">WhatsAPI</a>.</div>
     <div class="line">Powered by:</div>
     <div>
       <a href="https://developer.mozilla.org/en-US/docs/HTML" target="_blank" rel="nofollow"><img src="img/logo/html5.png" height="50" width="50" alt="HTML5" /></a>

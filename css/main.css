@@ -8,6 +8,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img {
+	border: 0px;
+}
+
 header {
   position: absolute;
   right: 10px;

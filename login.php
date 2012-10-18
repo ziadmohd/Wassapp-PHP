@@ -3,7 +3,7 @@
 <script type="text/javascript" src="js/login.js"></script>
 <script type="text/javascript">
   var token = "<?php
-    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789[]{}()*%&$@";	
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789[]{}()*%&$@";
     $size = strlen( $chars );
     for( $i = 0; $i < 64; $i++ ) {
       $str .= $chars[ rand( 0, $size - 1 ) ];
