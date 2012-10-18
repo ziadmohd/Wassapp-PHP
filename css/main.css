@@ -44,6 +44,21 @@ label {
   font-weight: bold;
 }
 
+#logoBox {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 96px;
+}
+
+#contentBox {
+  width: 300px;
+  margin: 20px auto;
+  border: 0px;
+}
+
+#footerContent {
+  margin: 0px 10px 0px 10px;
+}
+
 .normalInputText, .normalInputButton {
   color: #CA842C;
   border: 1px solid #CCCCCC;
@@ -76,21 +91,6 @@ label {
   background-color: #FFA538;
 }
 
-#logoBox {
-  font-family: 'Londrina Sketch', cursive;
-  font-size: 96px;
-}
-
-#contentBox {
-  width: 300px;
-  margin: 20px auto;
-  border: 0px;
-}
-
-#footerContent {
-  margin: 0px 10px 0px 10px;
-}
-
 input:-webkit-input-placeholder, textarea:-webkit-input-placeholder {
   color: #8F8F8F;
 }
@@ -111,10 +111,6 @@ input:-moz-placeholder, textarea:-moz-placeholder {
   color: #53C51E;
   font-size: 25px;
   font-weight: bold;
-}
-
-.placeholder {
-  color: #8F8F8F;
 }
 
 .orange, a{

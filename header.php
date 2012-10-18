@@ -12,13 +12,13 @@
 <title>WassApp</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="img/favicon.png" />
+<link rel="stylesheet" type="text/css" href="css/background.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
 <script type="text/javascript" src="js/framework/jquery.js"></script>
 <script type="text/javascript" src="js/framework/jquery.ui.js"></script>
 <script type="text/javascript" src="js/framework/jquery.placeholder.js"></script>
 <script type="text/javascript" src="js/framework/jquery.scrollto.js"></script>
 <script type="text/javascript" src="js/framework/gibberish-aes.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<link rel="stylesheet" type="text/css" href="css/background.css" />
-<link rel="stylesheet" type="text/css" href="css/main.css" />
-<link rel="stylesheet" type="text/css" href="css/jquery.ui.css" />
+<!--<link rel="stylesheet" type="text/css" href="css/jquery.ui.css" />-->
 <!-- [UP] Static header content [UP] -->
