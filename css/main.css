@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Londrina+Sketch);
+
+body {
+  visibility: hidden;
+  margin-top: 5%;
+  text-align: center;
+  color: #63BB6F;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 12px;
+}
+
+footer {
+  overflow: hidden;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
+  min-width: 250px;
+  font-size: 12px;
+  text-align: left;
+  background: url(../img/transparent.png) top center repeat;
+  border-top-right-radius: 10px;
+  transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+footer:hover {
+  height: 260px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.normalInputText, .normalInputButton {
+  color: #CA842C;
+  border: 1px solid #CCCCCC;
+  font-size: 20px;
+  width: 300px;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.normalInputText {
+  height: 40px;
+  background-color: #FFFFFF;
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.normalInputButton {
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 1px solid #FFA538;
+  background-color: #CA842C;
+}
+
+.normalInputButton:active {
+  border: 1px solid #CA842C;
+  background-color: #FFA538;
+}
+
+#logoBox {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 96px;
+}
+
+#contentBox {
+  width: 300px;
+  margin: 20px auto;
+  border: 0px;
+}
+
+#footerContent {
+  margin: 0px 10px 0px 10px;
+}
+
+input:-webkit-input-placeholder, textarea:-webkit-input-placeholder {
+  color: #8F8F8F;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #8F8F8F;
+}
+
+.error {
+  display: none;
+  color: #BE2129;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.done {
+  display: none;
+  color: #53C51E;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.placeholder {
+  color: #8F8F8F;
+}
+
+.orange, a{
+  color: #CA842C !important;
+}
+
+.arrow-up {
+  display: inline-block;
+  margin-right: 10px;
+  width: 0px; 
+  height: 0px; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid white;
+}
+
+.line {
+  margin: 12px 0px 0px 0px;
+}

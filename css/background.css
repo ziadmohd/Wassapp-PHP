@@ -1,0 +1,6 @@
+body {
+  background-color: #384955;
+  background: 
+    url(../img/background.png) top center repeat-x,
+    url(../img/background-repeat.png) bottom center repeat;
+}

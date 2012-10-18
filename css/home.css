@@ -1,0 +1,173 @@
+#addBox, #manageBox {
+  display: none;
+}
+
+#logoutButton {
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  height: 20px;
+}
+
+#loginData, #logout {
+  display: inline;
+  margin-right: 10px;
+}
+
+#contactBox {
+  position: absolute;
+  left: 10px;
+  top: 55px;
+  font-size: 12px;
+}
+
+#manageBox {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+}
+
+#addInfo {
+  position: absolute;
+  left: 85px;
+  top: 10px;
+}
+
+#addButton {
+  border: 2px solid #8ccd33;
+  background: #8CCD33 url("../img/add.png") center center no-repeat;
+}
+
+#editButton {
+  border: 2px solid #17a0f1;
+  background: #17a0f1 url("../img/edit.png") center center no-repeat;
+}
+
+#trashButton {
+  border: 2px solid #333333;
+  background: #333333 url("../img/trash.png") center center no-repeat;
+}
+
+.contactContainer {
+  border: 2px solid #8ccd33;
+  background: #8CCD33 url("../img/contact.png") center center no-repeat;
+}
+
+.contactContainerSelected {
+  border: 2px solid #f48900;
+  background: #f48900 url("../img/contactSelected.png") center center no-repeat;
+}
+
+.contactContainer, #addButton , #editButton, #trashButton {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  z-index: 10;
+}
+
+.contactElement {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.contactElementSelected {
+  color: #333333;
+}
+
+.chatArea {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.chatTitle {
+  width: 305px;
+  height: 25px;
+  margin: 0px;
+  padding-top: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  background: url("../img/chatTitle.png") repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.chatText {
+  width: 305px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.chatWrite {
+  height: 40px;
+  width: 98%;
+  margin: 0px;
+  resize: none;
+  font-size: 17px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.chatLineYouText {
+  margin: 5px 10px 2px 10px;
+  padding: 2px 5px 2px 5px;
+  clear: both;
+  float: right;
+  max-width: 90%;
+  color: #222222;
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  background: url("../img/green.png") repeat;
+  border-radius: 5px;
+}
+
+.chatLineYouTime {
+  margin: 0px 10px 5px 10px;
+  clear: both;
+  float: right;
+  color: #333333;
+  font-size: 10px;
+}
+
+.chatCloseButton {
+  float: right;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+#confirmButton, #cancelButton {
+  display: inline-block;
+  width: 145px;
+}
+
+#cancelButton {
+  background-color: #BE2129;
+  border-color: #DD0712;
+}
+
+#cancelButton:active {
+  background-color: #DD0712;
+  border-color: #BE2129;
+}
+
+#quickSendButton , #confirmButton, #cancelButton {
+  padding: 10px;
+}
+
+#debugArea{
+  margin: 0px auto 0px auto;
+  word-wrap: break-word;
+  font-family: "Courier New", Courier;
+  width: 300px;
+}
